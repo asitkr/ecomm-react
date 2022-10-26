@@ -2,11 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import FormatPrice from '../helper/FormatPrice';
 
-const Product = ({ curElem }) => {
+const Product = (curElem) => {
 
     // console.log("Product ----- ", curElem)
 
-    const {id, name, image, price, category} = curElem;
+    const { id, name, image, price, category } = curElem;
 
     return (
         <NavLink to={`/singleProduct/${id}`}>
