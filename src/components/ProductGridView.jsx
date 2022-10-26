@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import FormatPrice from '../helper/FormatPrice';
 
-const Product = ({ curElem }) => {
+const ProductGridView = (curElem) => {
 
     // console.log("Product ----- ", curElem);
 
@@ -27,4 +27,4 @@ const Product = ({ curElem }) => {
     )
 }
 
-export default Product;
+export default ProductGridView;

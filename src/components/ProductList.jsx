@@ -13,9 +13,9 @@ const ProductList = () => {
         return <GridView products={filter_products} />
     }
 
-    // if(setGridView === false) {
-    //     return <ListView products={filter_products} />
-    // }
+    if(setGridView === false) {
+        return <ListView products={filter_products} />
+    }
 }
 
 export default ProductList;
