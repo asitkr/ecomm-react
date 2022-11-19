@@ -34,8 +34,6 @@ const AppProvider = ({ children }) => {
     }
 
     //2nd api call for single products
-
-
     const getSingleProduct = async (url) => {
         dispatch({ type: "SET_SINGLE_LOADING" });
 
