@@ -5,6 +5,7 @@ const CartReducer = (state, action) => {
 
         // console.log(product);
 
+
         // tackle the existing product
         let existingProduct = state.cart.find(
             (curItem) => curItem.id === id + color

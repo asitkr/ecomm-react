@@ -1,7 +1,9 @@
 import React, { createContext, useContext, useEffect, useReducer } from "react";
 import reducer from "../reducer/CartReducer";
 
+
 const CartContext = createContext();
+
 
 const getLocalCartData = () => {
     let localCartData = localStorage.getItem("CartItems");
