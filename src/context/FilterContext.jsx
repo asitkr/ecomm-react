@@ -50,6 +50,7 @@ const FilterContextProvider = ({ children }) => {
         return dispatch({ type: "UPDATE_FILTERS_VALUE", payload: { name, value } });
     }
 
+    // to clear the filters
     const clearFilters = () => {
         return dispatch({ type: "CLEAR_FILTERS" });
     };
