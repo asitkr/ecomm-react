@@ -13,7 +13,7 @@ const HeroSection = ({ myData }) => {
                 <div className="grid grid-two-column">
                     <div className="hero-section-data">
                         <p className="intro-data">Welcome To</p>
-                        <h1>{name}</h1>
+                        <h1>Ecom</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
                             debitis fugiat exercitationem?
