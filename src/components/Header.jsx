@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <MainHeader>
         <NavLink to="/">
-            <img src="./images/logo.png" alt="logo image" />
+            <img src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/pijypsb7rsnimrspm45v" alt="logo image" />
         </NavLink>
         <Nav />
     </MainHeader>
